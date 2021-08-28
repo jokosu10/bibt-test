@@ -28,6 +28,6 @@ func findFirstStringInBracket(str string) string {
 }
 
 func main() {
-	var a = findFirstStringInBracket("(cccc)")
-	fmt.Println(a)
+	var string = findFirstStringInBracket("(cccc)")
+	fmt.Println(string)
 }
