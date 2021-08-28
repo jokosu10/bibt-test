@@ -24,7 +24,6 @@ func findFirstStringInBracket(str string) string {
 	} else {
 		return ""
 	}
-	return ""
 }
 
 func main() {
