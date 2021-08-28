@@ -11,7 +11,6 @@ func sortString(s string) string {
 	sort.Strings(listString)
 
 	return strings.Join(listString, "")
-
 }
 
 func main() {
@@ -24,11 +23,11 @@ func main() {
 		listAnagram[key] = append(listAnagram[key], sentence)
 	}
 
+	sort.Strings(arrWord)
+
 	for _, sentences := range listAnagram {
-		for _, w := range sentences {
-			fmt.Println("[", w, "]")
-		}
+		sliceOfSliceAnagram := append(sentences)
+		fmt.Println(sliceOfSliceAnagram)
 	}
 
-	// fmt.Println(arrWord)
 }
